@@ -1,0 +1,387 @@
+/* 1st Page Styling  */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 72px;
+  /* gap: 359px; */
+  /* border: 2px solid cyan; */
+  width: 100vw;
+  height:  14.1vh;
+  /* White */
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame238 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 29%;
+  height: 70%;
+  /* background-color: antiquewhite; */
+  justify-content: space-between;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame238>div {
+  width: 10%;
+  height: 60%;
+
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Brand/Blue */
+  color: #121B64;
+
+}
+
+.frame238>div>select {
+  /* outline: 0;/ */
+  border: 1px black;
+}
+
+.frame239 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+
+  width: 30%;
+  height: 70%;
+
+  /* Brand/Blue */
+
+  background: #121B64;
+  border-radius: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame239 button {
+  background-color: #121B64;
+  color: #FFFFFF;
+  border: none;
+}
+
+.frame263 {
+  /* Frame 263 */
+
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  /* gap: 10px; */
+
+  width: 100vw;
+  height: 6vh;
+
+  background: #F7F7F7;
+  backdrop-filter: blur(16px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.actionOnFrame263 {
+
+  width: 79px;
+  height: 21px;
+
+  /* Heading_16px */
+
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Green Pastel */
+
+  color: #7E8139;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.SbiFrame263 {
+  /* SBI FD rate climbed up to 8.5% */
+
+
+  width: 210px;
+  height: 21px;
+
+  /* Heading_16px */
+
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Black */
+
+  color: #32302F;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.main {
+  /* Hero */
+  width: 1440px;
+  height: 760px;
+
+  /* White */
+
+  /* background: #ef2d2d; */
+  border-radius: 0px 0px 80px 80px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame308Button {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+
+  width: 139px;
+  height: 53px;
+
+  /* Brand/Blue */
+
+  background: #121B64;
+  border-radius: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame308Button button {
+  /* Join the Waitlist */
+
+
+  width: 107px;
+  height: 21px;
+
+  /* Heading_16px */
+
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+  background-color: #121B64;
+  color: #FFFFFF;
+  border: none;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame308 {
+  /* Frame 308 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 837px;
+  height: 304px;
+  left: calc(50% - 837px/2 - 0.5px);
+  top: calc(50% - 304px/2 - 11px);
+
+}
+
+.frame308Head {
+  /* Stress-Free Investing */
+
+
+  width: 837px;
+  height: 115px;
+
+  /* Heading_80px */
+
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 120%;
+  /* or 115px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Brand/Blue */
+
+  color: #121B64;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame308Desc {
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. */
+
+
+  width: 700px;
+  height: 72px;
+
+  /* Paragraph_28px */
+
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Black */
+
+  color: #32302F;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.RGCoin {
+  /* Rupee Gold Coin */
+
+
+  position: absolute;
+  width: 248px;
+  height: 248px;
+  left: 139.6px;
+  top: -9px;
+
+  background: url();
+  transform: rotate(48.45deg);
+}
+
+.fCoin2 {
+  /* F Coin 2 */
+
+
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  right: -53px;
+  top: 1px;
+
+  background: url();
+}
+
+.pCoin1 {
+  /* Percent Coin 1 */
+
+
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 119px;
+  bottom: 139px;
+
+  background: url()
+}
+
+.ACoin1 {
+  /* Arrow Coin 1 */
+
+
+  position: absolute;
+  width: 228px;
+  height: 228px;
+  right: 69px;
+  bottom: 147px;
+
+  background: url();
+}
