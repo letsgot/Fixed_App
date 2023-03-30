@@ -1,0 +1,415 @@
+.fifthPage {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 100px 72px;
+gap: 32px;
+
+width: 100vw;
+height: 100vh;
+
+background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 31.23%);
+/* border-radius: 0px 0px 80px 80px; */
+
+/* Inside auto layout */
+
+flex: none;
+order: 6;
+flex-grow: 0;
+}
+
+.frame288 {
+    /* Frame 288 */
+    
+    
+    /* Auto layout */
+
+    margin-top: -2%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    
+    width: 90vw;
+    height: 70vh;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame285 {
+/* Frame 285 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 100%;
+height: 30%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame285>.head{
+/* Why Fixed ? */
+
+
+width: 100%;
+height: 70%;
+
+/* Heading_64px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 5vw;
+line-height: 120%;
+/* identical to box height, or 77px */
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: right;
+
+/* Brand/Blue */
+
+color: #121B64;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame285>.desc{
+/* Choose across investments that you can easily withdraw and liquidate in times of need */
+
+
+width: 100%;
+height: 30%;
+
+/* Paragraph_28px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 2vw;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame280{
+/* Frame 280 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 100%;
+height: 70%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame277 {
+/* Frame 277 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 16px;
+gap: 24px;
+
+width: 28%;
+height: 87%;
+
+background: #FFFFFF;
+box-shadow: 0px 18px 50px -10px rgba(0, 0, 0, 0.2);
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.frame277>.head{
+/* Safe investments that beat inflation */
+
+
+width: 100%;
+height: 40%;
+
+/* Heading_28px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 2.25vw;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.frame277>.desc{
+/* Low risk, High return investments that are easy to understand */
+
+margin-top: -15%;
+width: 100%;
+height: 100%;
+
+/* Paragraph_20px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame278 {
+/* Frame 277 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 16px;
+gap: 24px;
+
+width: 28%;
+height: 87%;
+
+background: #FFFFFF;
+box-shadow: 0px 18px 50px -10px rgba(0, 0, 0, 0.2);
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.frame278>.head{
+/* Safe investments that beat inflation */
+
+width: 100%;
+height: 40%;
+
+/* Heading_28px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 2.25vw;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.frame278>.desc{
+/* Low risk, High return investments that are easy to understand */
+
+margin-top: -15%;
+width: 100%;
+height: 100%;
+
+/* Paragraph_20px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+.frame279 {
+/* Frame 277 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 16px;
+gap: 24px;
+
+width: 28%;
+height: 87%;
+
+background: #FFFFFF;
+box-shadow: 0px 18px 50px -10px rgba(0, 0, 0, 0.2);
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.frame279>.head{
+/* Safe investments that beat inflation */
+
+
+width: 100%;
+height: 40%;
+
+/* Heading_28px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 2.25vw;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.frame279>.desc{
+/* Low risk, High return investments that are easy to understand */
+
+margin-top: -15%;
+width: 100%;
+height: 100%;
+
+/* Paragraph_20px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5vw;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+
+

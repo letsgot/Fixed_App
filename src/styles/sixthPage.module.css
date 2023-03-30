@@ -1,0 +1,339 @@
+.sixthPage {
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 100px 72px;
+gap: 32px;
+
+width: 100vh;
+height: 100vw;
+
+background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+border-radius: 0px 0px 80px 80px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 7;
+flex-grow: 0;
+}
+
+.frame287{
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 80px;
+
+width: 90%;
+height: 70%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame286 {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 80%;
+height: 30%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame286>.head{
+/* Keep Learning. Keep Growing. */
+
+
+width: 90%;
+height: 60%;
+
+/* Heading_64px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Brand/Blue */
+
+color: #121B64;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame286>.desc{
+    /* Insights and Strategies for Mastering Your Finances: Stay Up-to-Date with the Latest Trends, Tips, and Techniques to Take Control of Your Money */
+
+
+width: 90%;
+height: 40%;
+
+/* Paragraph_28px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.frame244{
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 90vw;
+    height: 40vh;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+    .frame240{
+    /* Frame 240 */
+    
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 0px;
+    gap: 8px;
+    
+    width: 312px;
+    height: 450px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.14);
+    border-radius: 12px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    }
+    
+    .frame240>image{
+        width: 296px;
+        height: 203px;
+        
+        background: url(), #ECECEC;
+        border-radius: 6px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;   
+    }
+    
+    .frame240>.head{
+        /* Save money, the right way */
+    
+    
+    width: 280px;
+    height: 21px;
+    
+    /* Paragraph_16px */
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    .frame240>.desc{
+        /* Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. */
+    
+    
+    width: 280px;
+    height: 63px;
+    
+    /* Paragraph_16px */
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    /* Grey */
+    
+    color: #686868;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    .frame240>.footer{
+        /* Frame 248 */
+    
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    
+    width: 296px;
+    height: 37px;
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+    
+    .frame240>.footer>.date{
+        /* 24 May 2023 */
+    
+    
+    width: 94px;
+    height: 21px;
+    
+    /* Heading_16px */
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Light Grey */
+    
+    color: #BEBEBE;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    .frame240>.footer>.desc{
+        /* Read Now */
+    
+    
+    width: 68px;
+    height: 21px;
+    
+    /* Paragraph_16px */
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Green Pastel */
+    
+    color: #7E8139;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+    
+    
+    
