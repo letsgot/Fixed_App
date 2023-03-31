@@ -1,0 +1,165 @@
+.tenthPage{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 72px;
+    gap: 32px;
+    
+    /* width: 1440px;
+    height: 760px;
+     */
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 23.92%);
+    border-radius: 0px 0px 80px 80px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 11;
+    flex-grow: 0;
+
+
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.frame294 {
+    /* Frame 294 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 50vw;
+height: 50vh;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame294>.head{
+    
+width: 100%;
+height: 30%;
+
+/* Heading_64px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+/* Brand/Blue */
+
+color: #121B64;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame294>.desc {
+    /* Frame 239 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+width: 100%;
+height: 40%;
+
+/* Brand/Blue */
+
+/* background: #121B64; */
+border-radius: 32px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+
+.frame308Button {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 35%;
+    height: 19%;
+    margin-left: 78%;
+    background: #121B64;
+    border-radius: 32px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-right: 35vw;
+  }
+  
+  .frame308Button button {
+    /* Join the Waitlist */
+  
+  
+    width: 107px;
+    height: 21px;
+  
+    /* Heading_16px */
+  
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 21px;
+    /* identical to box height */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+    /* White */
+    background-color: #121B64;
+    color: #FFFFFF;
+    border: none;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }

@@ -1,0 +1,158 @@
+.eighthPage {
+/* Frame 100 */
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4% 4%;
+gap: 32px;
+
+width: 100vw;
+height: 100vh;
+
+background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
+border-radius: 0px 0px 80px 80px;
+/* background-color: aqua; */
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+}
+
+.frame294{
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 80px;
+
+width: 85%;
+height: 100%;
+
+/* background-color: #aaaea1; */
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame290{
+/* Frame 290 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 100%;
+height: 40%;
+
+/* background-color: bisque; */
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame290 > .head{
+    /* In the press */
+
+
+width: 90%;
+height: 40%;
+
+/* background-color: #32302F; */
+
+/* Heading_64px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+/* Brand/Blue */
+
+color: #121B64;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame290 > .desc{
+    /* Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence. */
+
+
+width: 90%;
+height: calc(100%-40%);
+
+/* Paragraph_28px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame293 {
+/* Frame 293 */
+
+
+width: 100%;
+height: calc(100%-30%);
+
+/* background-color: gray; */
+/* Inside auto layout */
+
+/* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame293>.vercelLogo {
+    width: 35%;
+    height: 35%;
+    object-fit: contain;
+}

@@ -18,7 +18,7 @@ function SixthPage() {
                         <Image
                             src="./assets/Frame 240.svg"
                             alt="Vercel Logo"
-                            // className={styles.vercelLogo}
+                            className={styles.frame240Image}
                             width={108.75}
                             height={30}
                             //                 width: 108.75px;
@@ -34,11 +34,11 @@ function SixthPage() {
                     </div>
 
 
-                    <div className={styles.frame241}>
+                    <div className={styles.frame240}>
                         <Image
                             src="./assets/Frame 241.svg"
                             alt="Vercel Logo"
-                            // className={styles.vercelLogo}
+                            className={styles.frame240Image}
                             width={108.75}
                             height={30}
                             //                 width: 108.75px;
@@ -54,11 +54,11 @@ function SixthPage() {
                     </div>
 
 
-                    <div className={styles.frame242}>
+                    <div className={styles.frame240}>
                         <Image
                             src="./assets/Frame 242.svg"
                             alt="Vercel Logo"
-                            // className={styles.vercelLogo}
+                            className={styles.frame240Image}
                             width={108.75}
                             height={30}
                             //                 width: 108.75px;
@@ -75,11 +75,11 @@ function SixthPage() {
 
 
 
-                    <div className={styles.frame243}>
+                    <div className={styles.frame240}>
                         <Image
                             src="./assets/Frame 243.svg"
                             alt="Vercel Logo"
-                            // className={styles.vercelLogo}
+                            className={styles.frame240Image}
                             width={108.75}
                             height={30}
                             //                 width: 108.75px;
@@ -94,10 +94,11 @@ function SixthPage() {
                         </div>
                     </div>
                 </div>
+                <div className={styles.frame207}>
+                    <div>More</div>
+                </div>
             </div>
-            <div className={styles.frame207}>
 
-            </div>
         </div>
     )
 }

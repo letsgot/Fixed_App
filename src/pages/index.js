@@ -9,6 +9,9 @@ import ThirdPage from './ThirdPage';
 import FourthPage from './FourthPage';
 import FifthPage from './FifthPage';
 import SixthPage from './SixthPage';
+import EighthPage from './EighthPage';
+import NinethPage from './NinethPage';
+import TenthPage from './TenthPage';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +32,9 @@ export default function Home() {
       <FourthPage></FourthPage>
       <FifthPage></FifthPage>
       <SixthPage></SixthPage>
+      <EighthPage></EighthPage>
+      <NinethPage></NinethPage>
+      <TenthPage></TenthPage>
     </>
   )
 }
