@@ -1,0 +1,405 @@
+.seventhPage {
+    /* Hero */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.7%;
+/* gap: 32px; */
+
+width: 100vw;
+height: 100vh;
+
+background: linear-gradient(180deg, #F6F6F6 0%, rgba(255, 255, 255, 0.984043) 14.35%);
+border-radius: 0px 0px 80px 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+}
+
+.frame292 {
+    /* Frame 292 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+/* gap: 80px; */
+
+width: 80vw;
+height: 90vh;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame291 {
+    /* Frame 291 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+/* gap: 32px; */
+
+width: 100%;
+/* think for 261  */
+height: 24%;   
+
+/* background-color: beige; */
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.frame290 {
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+/* gap: 32px; */
+
+width: 70%;
+height: 100%;
+
+/* background-color: aqua; */
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame290>.head {
+/* Meet the team */
+
+
+width: 100%;
+height: 40%;
+
+/* Heading_64px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+/* line-height: 120%; */
+/* identical to box height, or 77px */
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+/* Brand/Blue */
+
+color: #121B64;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame290>.desc {
+/* Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence. */
+
+
+width: 100%;
+height: 40%;
+
+/* Paragraph_28px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 100%;
+/* line-height: 36px; */
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+margin-top: 2%;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+
+
+
+/* Frame 261 */
+
+
+.frame261 {
+box-sizing: border-box;
+
+width: 100%;
+height: 76%;
+
+/* Light Grey */
+
+/* border-width: 1px 1px 1px 0px;
+border-style: solid;
+border-color: #BEBEBE; */
+
+/* background-color:blue ; */
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+
+}
+
+
+.frame262 {
+    /* Frame 262 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 100%;
+height: 49%;
+
+
+/* background-color: rgb(208, 36, 36); */
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame260 {
+    /* Frame 260 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+/* gap: 16px; */
+
+width: 100%;
+height: 50%;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+.frame259 {
+/* Frame 259 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+/* gap: 16px; */
+
+width: calc(100%/5);
+height: 100%;
+
+/* border-left : 1px solid gray; */
+border: 1px solid #BEBEBE;
+
+/* background-color: #32302F; */
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.photo {
+    
+width: 100%;
+height: 80%;
+
+/* background: url('../../public/assets/Image.png'), rgba(203, 203, 203, 0.2); */
+/* object-fit: contain; */
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+}
+
+
+.profileDesc {
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+/* padding: 16px 32px 16px 16px; */
+/* gap: 4px; */
+
+width: 100%;
+height: 20%;
+
+/* object-fit: cover; */
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #000000; */
+    /* align-items: center;
+    justify-content: space-evenly; */
+    height: 100%;
+    width: 80%;
+    font-size: 1vw;
+}
+
+.name>.head {
+
+    width: 100%;
+    height: 50%;
+    
+    /* Heading_16px */
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 16px; */
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.name>.post {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.linkedImage>.photo {
+    height: 2vh;
+    width: 7vw;
+}
+
+
+.frame262>.desc {
+    
+box-sizing: border-box;
+
+width: 80%;
+height: 100%;
+
+/* Light Grey */
+
+border-width: 1px 1px 1px 1px;
+border-style: solid;
+border-color: #BEBEBE;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+/* line-height: 41px; */
+display: flex;
+align-items: center;
+justify-content: center;
+
+/* Grey */
+
+color: #686868;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+
+/* .frame261>.frame262>.frame259> {
+    border-bottom: 1px solid gray;
+} */
+
+.frame262>.desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

@@ -16,7 +16,7 @@ function SixthPage() {
                 <div className={styles.frame244}>
                     <div className={styles.frame240}>
                         <Image
-                            src="./assets/Frame 240.svg"
+                            src="/assets/Frame 240.png"
                             alt="Vercel Logo"
                             className={styles.frame240Image}
                             width={108.75}
@@ -36,7 +36,7 @@ function SixthPage() {
 
                     <div className={styles.frame240}>
                         <Image
-                            src="./assets/Frame 241.svg"
+                            src="/assets/Frame 241.png"
                             alt="Vercel Logo"
                             className={styles.frame240Image}
                             width={108.75}
@@ -56,7 +56,7 @@ function SixthPage() {
 
                     <div className={styles.frame240}>
                         <Image
-                            src="./assets/Frame 242.svg"
+                            src="/assets/Frame 242.png"
                             alt="Vercel Logo"
                             className={styles.frame240Image}
                             width={108.75}
@@ -77,7 +77,7 @@ function SixthPage() {
 
                     <div className={styles.frame240}>
                         <Image
-                            src="./assets/Frame 243.svg"
+                            src="/assets/Frame 240.png"
                             alt="Vercel Logo"
                             className={styles.frame240Image}
                             width={108.75}
@@ -95,7 +95,7 @@ function SixthPage() {
                     </div>
                 </div>
                 <div className={styles.frame207}>
-                    <div>More</div>
+                    <div>More Insights</div>
                 </div>
             </div>
 
