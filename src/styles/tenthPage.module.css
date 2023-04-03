@@ -1,23 +1,23 @@
-.tenthPage{
+.tenthPage {
     box-sizing: border-box;
 
     /* Auto layout */
-    
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 100px 72px;
     gap: 32px;
-    
+
     /* width: 1440px;
     height: 760px;
      */
     background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 23.92%);
     border-radius: 0px 0px 80px 80px;
-    
+
     /* Inside auto layout */
-    
+
     flex: none;
     order: 11;
     flex-grow: 0;
@@ -32,82 +32,82 @@
     /* Frame 294 */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
 
-width: 50vw;
-height: 50vh;
+    width: 50vw;
+    height: 50vh;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.frame294>.head{
-    
-width: 100%;
-height: 30%;
+.frame294>.head {
 
-/* Heading_64px */
+    width: 100%;
+    height: 30%;
 
-font-family: 'Futura PT';
-font-style: normal;
-font-weight: 500;
-font-size: 64px;
-line-height: 120%;
-/* identical to box height, or 77px */
+    /* Heading_64px */
 
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    /* identical to box height, or 77px */
 
-/* Brand/Blue */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
-color: #121B64;
+    /* Brand/Blue */
+
+    color: #121B64;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .frame294>.desc {
     /* Frame 239 */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px;
-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
 
-width: 100%;
-height: 40%;
+    width: 100%;
+    height: 40%;
 
-/* Brand/Blue */
+    /* Brand/Blue */
 
-/* background: #121B64; */
-border-radius: 32px;
+    /* background: #121B64; */
+    border-radius: 32px;
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 2;
-flex-grow: 0;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 
 
@@ -129,37 +129,103 @@ flex-grow: 0;
     order: 2;
     flex-grow: 0;
     margin-right: 35vw;
-  }
-  
-  .frame308Button button {
+}
+
+.frame308Button button {
     /* Join the Waitlist */
-  
-  
+
+
     width: 107px;
     height: 21px;
-  
+
     /* Heading_16px */
-  
+
     font-family: 'Futura PT';
     font-style: normal;
     font-weight: 500;
     font-size: 1.2vw;
     line-height: 21px;
     /* identical to box height */
-  
+
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-  
+
     /* White */
     background-color: #121B64;
     color: #FFFFFF;
     border: none;
-  
+
     /* Inside auto layout */
-  
+
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
+}
+
+@media screen and (max-width: 900px) {
+
+
+    .frame308Button {
+
+
+        /* Frame 239 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+
+        width: 110px;
+        height: 53px;
+
+        /* Brand/Blue */
+
+        background: #121B64;
+        border-radius: 32px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .frame308Button button {
+        /* Invest Now */
+
+
+        width: 78px;
+        height: 21px;
+
+        /* Heading_16px */
+
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* White */
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+}
