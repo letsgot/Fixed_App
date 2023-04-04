@@ -9,10 +9,11 @@ function SecondPage() {
             </div>
             <div className={styles.frame289Desc}>
                 <div className={styles.head}>FD Bazaar</div>
-                <div className={styles.container}>
+                <div className={styles.container}  priority >
                     Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
                 </div>
                 <div className={styles.buttonExplore}>
+                    {/* lorem Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. */}
                     <div>Explore FDs</div>
                 </div>
             </div>

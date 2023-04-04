@@ -245,6 +245,188 @@
     order: 1;
     flex-grow: 0;
   }
+
+
+
+
+
+
+
+
+
+
+
+
   
+
+  @media screen and (max-width : 400px) {
+    .fourthPage {
+      /* Hero */
+      
+      
+      /* Auto layout */
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 48px 24px;
+      gap: 24px;
+      
+      width: 375px;
+      height: 652px;
+      
+      background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+      border-radius: 0px 0px 48px 48px;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 3;
+      flex-grow: 0;
+      }
+      
+      .frame500 {
+       /* Frame 289 */
+      
+      
+      width: 327px;
+      height: 327px;
+      
+      background: #DDDDDD;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      }
+      /* 
+      .frame289Desc {
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 48px 24px;
+      gap: 24px;
+      
+      width: 375px;
+      height: 652px;
+      
+      background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+      border-radius: 0px 0px 48px 48px;
+      
+      /* Inside auto layout */
+      /*
+      flex: none;
+      order: 3;
+      flex-grow: 0;
+      } */
+      
+      .frame500Desc>.head {
+        /* FD Bazaar */
+        width: 327px;
+        height: 41px;
+        
+        /* Heading_32px */
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+        /* identical to box height */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+        /* Brand/Blue */
+        
+        color: #121B64;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+      }
+      
+      
+      
+      .frame500Desc>.container {
+        width: 327px;
+        height: 63px;
+        
+        /* Paragraph_16px */
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+        /* Black */
+        
+        color: #32302F;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+      }
+      
+      .buttonExplore {
+        /* height: 40px;
+        width: 100px;
+      background-color: #F4F3F3;
+      display: flex;
+      justify-content: center;
+      align-items: center; */
+      display: flex;
+      } 
+      
+      .buttonExplore div {
+       /* Explore FDs */
+      
+      
+      width: 100px;
+      height: 40px;
+      
+      /* Heading_16px */
+      
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      /* identical to box height */
+      
+      text-align: center;
+      
+      /* Brand/Blue */
+      
+      color: #121B64;
+      border: 1px solid black;
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      }
+      
+  }
   
   }
