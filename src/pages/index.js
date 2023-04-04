@@ -28,19 +28,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar></Navbar>
-      <Main></Main>
-      <SecondPage></SecondPage>
-      <ThirdPage></ThirdPage>
-      <FourthPage></FourthPage>
-      <FifthPage></FifthPage>
-      <SixthPage></SixthPage>
-      <SeventhPage></SeventhPage>
+      <Navbar key="1.1"></Navbar>
+      <Main key="1.2" ></Main>
+      <SecondPage key="2"></SecondPage>
+      <ThirdPage key="3"></ThirdPage>
+      <FourthPage key="4"></FourthPage>
+      <FifthPage key="5"></FifthPage>
+      <SixthPage key="6"></SixthPage>
+      <SeventhPage key="7"></SeventhPage>
       {/* <MeetTheTeam></MeetTheTeam> */}
-      <EighthPage></EighthPage>
-      <NinethPage></NinethPage>
-      <TenthPage></TenthPage>
-      <EleventhPage></EleventhPage>
+      <EighthPage key="8"></EighthPage>
+      <NinethPage key="9"></NinethPage>
+      <TenthPage key="10"></TenthPage>
+      <EleventhPage key="11"></EleventhPage>
       {/* <SeventhPage></SeventhPage> */}
     </>
   )
