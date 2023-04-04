@@ -1,0 +1,44 @@
+[
+    {  
+        "id":"1",
+        "Fname":"Akshar" ,
+        "Lname":"Shah",
+        "Role":"Founder and CEO",
+        "image":"/teamdata/img0.png"
+    },
+    {  
+        "id":"2",
+        "Fname":"Akshar" ,
+        "Lname":"Shah",
+        "Role":"Founder and CEO",
+        "image":"/teamdata/img1.png"
+    },
+    {   
+        "id":"3",
+        "Fname":"Akshar" ,
+        "Lname":"Shah",
+        "Role":"Founder and CEO",
+        "image":"/teamdata/img2.png"
+    },
+    {   
+        "id":"4",
+        "Fname":"Akshar" ,
+        "Lname":"Shah",
+        "Role":"Founder and CEO",
+        "image":"/teamdata/img3.png"
+    },
+    {   
+        "id":"5",
+        "Fname":"Akshar" ,
+        "Lname":"Shah",
+        "Role":"Founder and CEO",
+        "image":"/teamdata/img4.png"
+    },
+    {   
+        "id":"6",
+        "Fname":"Akshar" ,
+        "Lname":"Shah",
+        "Role":"Founder and CEO",
+        "image":"/teamdata/img5.png"
+    }
+]

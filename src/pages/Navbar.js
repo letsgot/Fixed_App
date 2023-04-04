@@ -27,6 +27,19 @@ function Navbar() {
         <div className={styles.frame239}>
           <button>Best Investments Options</button>
         </div>
+
+        <div className={styles.optionsBar}>
+        <Image
+          src="./assets/optionsBar.svg"
+          alt="Options Bar"
+          className={styles.vercelLogo}
+          width={108.75}
+          height={30}
+          //                 width: 108.75px;
+          // height: 30px;
+          priority
+        />
+        </div>
       </div>
 
       <div className={styles.frame263}>

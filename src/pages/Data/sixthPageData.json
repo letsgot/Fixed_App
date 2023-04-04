@@ -1,0 +1,29 @@
+[
+    {   
+        "id":"1",
+        "head" : "Save money, the right way",
+        "content" : "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        "image":"/assets/Frame 240.png",
+        "date" : "24 Nov 2023"
+    },
+    {   
+        "id":"2",
+        "head" : "Save money, the right way. Second line test",
+        "content" : "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        "image":"/assets/Frame 241.png",
+        "date" : "24 Nov 2023"
+    },
+    {   
+        "id":"3",
+        "head" : "Save money, the right way",
+        "content" : "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        "image":"/assets/Frame 242.png",
+        "date" : "24 Nov 2023"
+    },{   
+        "id":"4",
+        "head" : "Save money, the right way. Second line test",
+        "content" : "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        "image":"/assets/Frame 240.png",
+        "date" : "24 Nov 2023"
+    }
+]

@@ -14,6 +14,7 @@ import EighthPage from './EighthPage';
 import NinethPage from './NinethPage';
 import TenthPage from './TenthPage';
 import EleventhPage from './EleventhPage';
+import MeetTheTeam from '../new/meet-the-team-container'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,6 +36,7 @@ export default function Home() {
       <FifthPage></FifthPage>
       <SixthPage></SixthPage>
       <SeventhPage></SeventhPage>
+      {/* <MeetTheTeam></MeetTheTeam> */}
       <EighthPage></EighthPage>
       <NinethPage></NinethPage>
       <TenthPage></TenthPage>

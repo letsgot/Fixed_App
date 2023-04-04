@@ -27,6 +27,8 @@ flex-grow: 0;
    /* background-color: antiquewhite; */
 }
 /* 
+
+
 word-wrap : break-word */
 
 .frame99Content>.content1 {
@@ -99,7 +101,15 @@ order: 1;
 flex-grow: 0;
 }
 
-.frame99Content>.content2 {
+.topContent {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    height: 100%;
+    width: 75%;
+}
+
+.frame99Content>.topContent>.content2 {
 /* Auto layout */
 
 display: flex;
@@ -111,7 +121,7 @@ padding: 0px;
 gap: 6px;
 
 height: 100%;
-width: 25%;
+width: 40%;
 
 /* position: absolute;
 width: 342px;
@@ -223,7 +233,7 @@ bottom: 8.63%; */
 /* border: 2px solid #F6F6F6; */
 }
 
-.frame99Content>.content3{
+.frame99Content>.topContent>.content3{
 /* Auto layout */
 
 display: flex;
@@ -234,7 +244,7 @@ padding: 0px;
 gap: 13px;
 
 height: 100%;
-width: 13%;
+width: 25%;
 
 /* position: absolute;
 width: 129px;
@@ -301,7 +311,7 @@ order: 2;
 flex-grow: 0;
 }
 
-.frame99Content>.content4{
+.frame99Content>.topContent>.content4{
 /* Auto layout */
 
 display: flex;
@@ -312,7 +322,7 @@ padding: 0px;
 gap: 13px;
 
 height: 100%;
-width: 12%;
+width: 25%;
 /* 
 position: absolute;
 width: 122px;
@@ -448,6 +458,251 @@ flex-grow: 0;
     width: 10%;
 }
 
-@media screen and (max-width : 900) {
+
+
+@media screen and (max-width : 900px) {
+   
+    .frame99 {
+        /* Frame 99 */
+    
+    
+    box-sizing: border-box;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    /* Brand/Blue */
+    
+    background: #121B64;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 12;
+    flex-grow: 0;
+    }
+    
+    .frame99Content {
+       height: 80vh;
+       width: 100vw;
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: flex-start;
+       justify-content: space-evenly;
+       /* background-color: antiquewhite; */
+    }
+
+
+    
+.frame99Content>.content1 {
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 30px;
+    
+    height: 40%;
+    width: 50%;
+    word-wrap: break-word;
+    /* background-color: antiquewhite; */
+    
+    /* position: absolute;
+    width: 1%;
+    height: 1%;
+    left: 1%;
+    top: 1%; */
+    
+    
+    }
+    
+    .frame99Content>.content1>.vercelLogo {
+        /* Frame */
+    
+    
+        width: 38%;
+        height: 10%;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    .content1desc{
+        /* Vorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. */
+    
+    
+    /* width: 342px;
+    height: 78px; */
+    
+    word-wrap: break-word;
+    
+    
+    /* Paragraph_20px */
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    /* line-height: 26px; */
+    
+    /* White off */
+    
+    color: #F6F6F6;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+
+    
+.topContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 2%;
+    height: 50%;
+    width: 100%;
+}
+
+.frame99Content>.topContent>.content2 {
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+/* align-items: flex-start; */
+align-items: center;
+justify-content: center;
+padding: 0px;
+gap: 6px;
+
+height: 100%;
+width: 40%;
+
+/* position: absolute;
+width: 342px;
+height: 136px;
+left: 549px;
+top: 100px; */
+
+}
+
+.content2head {
+    /* width: 342px;
+height: 26px; */
+
+/* Heading_20px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.content2desc {
+    /* Call us and we will solve all your doubts and help you grow your business */
+
+
+/* width: 342px;
+height: 52px; */
+
+/* Paragraph_20px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 26px;
+
+/* White off */
+
+color: #F6F6F6;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.content2footer {
+    /* Call +91 9876543210 */
+
+
+/* width: 182px;
+height: 26px; */
+
+/* Paragraph_20px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 100;
+font-size: 1.5vw;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-start;
+
+
+/* White off */
+
+color: #F6F6F6;
+
+
+/* Inside auto layout */
+margin-left: -13%;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* 
+.content2>.number {
+    
+} */
+
+.callImage {
+
+    /* height: 1%;
+    width: 1%;
+     */
+/* position: absolute;
+left: 8.8%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.63%; */
+
+/* White off */
+
+/* border: 2px solid #F6F6F6; */
+}
+
    
 }

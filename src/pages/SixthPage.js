@@ -1,7 +1,12 @@
 import React from 'react'
 import styles from '@/styles/sixthPage.module.css'
 import Image from 'next/image'
+import arr from './Data/sixthPageData.json';
 function SixthPage() {
+
+    console.log(arr[0].head);
+
+
     return (
         <div className={styles.sixthPage}>
             <div className={styles.frame287}>
@@ -13,10 +18,12 @@ function SixthPage() {
                         Insights and Strategies for Mastering Your Finances: Stay Up-to-Date with the Latest Trends, Tips, and Techniques to Take Control of Your Money
                     </div>
                 </div>
+
                 <div className={styles.frame244}>
-                    <div className={styles.frame240}>
+                    {arr.map((object) => {
+                        return <div className={styles.frame240}>
                         <Image
-                            src="/assets/Frame 240.png"
+                            src={object.image}
                             alt="Vercel Logo"
                             className={styles.frame240Image}
                             width={108.75}
@@ -25,78 +32,18 @@ function SixthPage() {
                             // height: 30px;
                             priority
                         />
-                        <div className={styles.head}>Save money, the right way</div>
-                        <div className={styles.desc}>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</div>
+                        <div className={styles.head}>{object.head}</div>
+                        <div className={styles.desc}>{object.content}</div>
                         <div className={styles.footer}>
-                            <div className={styles.date}>24 May 2023</div>
+                            <div className={styles.date}>{object.date}</div>
                             <div className={styles.desc}>Read More</div>
                         </div>
                     </div>
-
-
-                    <div className={styles.frame240}>
-                        <Image
-                            src="/assets/Frame 241.png"
-                            alt="Vercel Logo"
-                            className={styles.frame240Image}
-                            width={108.75}
-                            height={30}
-                            //                 width: 108.75px;
-                            // height: 30px;
-                            priority
-                        />
-                        <div className={styles.head}>Save money, the right way</div>
-                        <div className={styles.desc}>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</div>
-                        <div className={styles.footer}>
-                            <div className={styles.date}>24 May 2023</div>
-                            <div className={styles.desc}>Read More</div>
-                        </div>
-                    </div>
-
-
-                    <div className={styles.frame240}>
-                        <Image
-                            src="/assets/Frame 242.png"
-                            alt="Vercel Logo"
-                            className={styles.frame240Image}
-                            width={108.75}
-                            height={30}
-                            //                 width: 108.75px;
-                            // height: 30px;
-                            priority
-                        />
-                        <div className={styles.head}>Save money, the right way</div>
-                        <div className={styles.desc}>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</div>
-                        <div className={styles.footer}>
-                            <div className={styles.date}>24 May 2023</div>
-                            <div className={styles.desc}>Read More</div>
-                        </div>
-                    </div>
-
-
-
-                    <div className={styles.frame240}>
-                        <Image
-                            src="/assets/Frame 240.png"
-                            alt="Vercel Logo"
-                            className={styles.frame240Image}
-                            width={108.75}
-                            height={30}
-                            //                 width: 108.75px;
-                            // height: 30px;
-                            priority
-                        />
-                        <div className={styles.head}>Save money, the right way</div>
-                        <div className={styles.desc}>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</div>
-                        <div className={styles.footer}>
-                            <div className={styles.date}>24 May 2023</div>
-                            <div className={styles.desc}>Read More</div>
-                        </div>
-                    </div>
+                    })}
                 </div>
-                <div className={styles.frame207}>
+                {/* <div className={styles.frame207}>
                     <div>More Insights</div>
-                </div>
+                </div> */}
             </div>
 
         </div>
