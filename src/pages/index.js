@@ -14,7 +14,7 @@ import EighthPage from './EighthPage';
 import NinethPage from './NinethPage';
 import TenthPage from './TenthPage';
 import EleventhPage from './EleventhPage';
-import MeetTheTeam from '../new/meet-the-team-container'
+// import MeetTheTeam from '../new/meet-the-team-container'
 
 const inter = Inter({ subsets: ['latin'] })
 

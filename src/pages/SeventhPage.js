@@ -2,8 +2,10 @@ import React from 'react'
 import Image from 'next/image';
 // import { Inter } from 'next/font/google';
 import styles from '@/styles/seventhPage.module.css';
+import objects from './Data/teamdata'
 
 function SeventhPage() {
+  console.log(objects);
   return (
     <div className={styles.seventhPage}>
       <div className={styles.frame292}>
@@ -48,143 +50,38 @@ function SeventhPage() {
           </div>
           <div className={styles.frame260}>
 
-            <div className={styles.frame259}>
-              <Image
-                alt='Mountains'
-                className={styles.photo}
-                src='/assets/mtt2.png'
-                width={108}
-                height={30}
-              />
-
-              <div className={styles.profileDesc}>
-                <div className={styles.name}>
-                <div className={styles.head}>Akshar Shah</div>
-                  <div className={styles.post}>Founder and CEO</div>
-                </div>
-                <div className={styles.linkedImage}>
+            {objects.map((object, i) => {
+              if (i == 0) {
+                return
+              }
+              else {
+                return <div className={styles.frame259}>
                   <Image
                     alt='Mountains'
                     className={styles.photo}
-                    src='./assets/linkedImage.svg'
+                    src={object.image}
                     width={108}
                     height={30}
                   />
+
+                  <div className={styles.profileDesc}>
+                    <div className={styles.name}>
+                      <div className={styles.head}>{object.name}</div>
+                      <div className={styles.post}>{object.Role}</div>
+                    </div>
+                    <div className={styles.linkedImage}>
+                      <Image
+                        alt='Mountains'
+                        className={styles.photo}
+                        src='./assets/linkedImage.svg'
+                        width={108}
+                        height={30}
+                      />
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-
-            <div className={styles.frame259}>
-              <Image
-                alt='Mountains'
-                className={styles.photo}
-                src='/assets/mtt3.png'
-                width={108}
-                height={30}
-              />
-
-              <div className={styles.profileDesc}>
-                <div className={styles.name}>
-                <div className={styles.head}>Akshar Shah</div>
-                  <div className={styles.post}>Founder and CEO</div>
-                </div>
-                <div className={styles.linkedImage}>
-                  <Image
-                    alt='Mountains'
-                    className={styles.photo}
-                    src='./assets/linkedImage.svg'
-                    width={108}
-                    height={30}
-                  />
-                </div>
-              </div>
-            </div>
-
-
-            <div className={styles.frame259}>
-              <Image
-                alt='Mountains'
-                className={styles.photo}
-                src='/assets/mtt4.png'
-                width={108}
-                height={30}
-              />
-
-              <div className={styles.profileDesc}>
-                <div className={styles.name}>
-                <div className={styles.head}>Akshar Shah</div>
-                  <div className={styles.post}>Founder and CEO</div>
-                </div>
-                <div className={styles.linkedImage}>
-                  <Image
-                    alt='Mountains'
-                    className={styles.photo}
-                    src='./assets/linkedImage.svg'
-                    width={108}
-                    height={30}
-                  />
-                </div>
-              </div>
-            </div>
-
-
-            <div className={styles.frame259}>
-              <Image
-                alt='Mountains'
-                className={styles.photo}
-                src='/assets/mtt5.png'
-                width={108}
-                height={30}
-              />
-
-              <div className={styles.profileDesc}>
-                <div className={styles.name}>
-                <div className={styles.head}>Akshar Shah</div>
-                  <div className={styles.post}>Founder and CEO</div>
-                </div>
-                <div className={styles.linkedImage}>
-                  <Image
-                    alt='Mountains'
-                    className={styles.photo}
-                    src='./assets/linkedImage.svg'
-                    width={108}
-                    height={30}
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className={styles.frame259}>
-              <Image
-                alt='Mountains'
-                className={styles.photo}
-                src= '/assets/mtt6.png'
-                width={108}
-                height={30}
-              />
-
-              <div className={styles.profileDesc}>
-                <div className={styles.name}>
-                <div className={styles.head}>Akshar Shah</div>
-                  <div className={styles.post}>Founder and CEO</div>
-                </div>
-                <div className={styles.linkedImage}>
-                  <Image
-                    alt='Mountains'
-                    className={styles.photo}
-                    src='./assets/linkedImage.svg'
-                    width={108}
-                    height={30}
-                  />
-                </div>
-              </div>
-            </div>
-
-
-
-
-
+              }
+            })}
           </div>
         </div>
       </div>

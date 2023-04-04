@@ -1,44 +1,38 @@
 [
     {  
         "id":"1",
-        "Fname":"Akshar" ,
-        "Lname":"Shah",
+        "name":"Akshar Shah" ,
         "Role":"Founder and CEO",
-        "image":"/teamdata/img0.png"
+        "image":"/assets/mtt1.png"
     },
     {  
         "id":"2",
-        "Fname":"Akshar" ,
-        "Lname":"Shah",
+        "name":"Akshar Shah" ,
         "Role":"Founder and CEO",
-        "image":"/teamdata/img1.png"
+        "image":"/assets/mtt2.png"
     },
     {   
         "id":"3",
-        "Fname":"Akshar" ,
-        "Lname":"Shah",
+        "name":"Akshar Shah" ,
         "Role":"Founder and CEO",
-        "image":"/teamdata/img2.png"
+        "image":"/assets/mtt3.png"
     },
     {   
         "id":"4",
-        "Fname":"Akshar" ,
-        "Lname":"Shah",
+        "name":"Akshar Shah" ,
         "Role":"Founder and CEO",
-        "image":"/teamdata/img3.png"
+        "image":"/assets/mtt4.png"
     },
     {   
         "id":"5",
-        "Fname":"Akshar" ,
-        "Lname":"Shah",
+        "name":"Akshar Shah" ,
         "Role":"Founder and CEO",
-        "image":"/teamdata/img4.png"
+        "image":"/assets/mtt5.png"
     },
     {   
         "id":"6",
-        "Fname":"Akshar" ,
-        "Lname":"Shah",
+        "name":"Akshar Shah" ,
         "Role":"Founder and CEO",
-        "image":"/teamdata/img5.png"
+        "image":"/assets/mtt6.png"
     }
 ]
