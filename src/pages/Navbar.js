@@ -10,7 +10,7 @@ import data from './Data/allData.json'
 // import styles from '@/styles/Home.module.css'
 function Navbar() {
   let objects = data[0][0];
-  console.log(objects);
+  // console.log(objects);
   const [loaded, setLoaded] = useState(false)
   // useEffect(() => {
   //   const { pathname } = Router

@@ -6,7 +6,9 @@ import data from './Data/allData.json'
 function SixthPage() {
     let arr = data[5];
     // console.log(arr[0].head);
+    let numIn = 1;
 
+    let str = "logo" + 1;
 
     return (
         <div className={styles.sixthPage}>
@@ -20,9 +22,13 @@ function SixthPage() {
                     </div>
                 </div>
 
+                {/* className={`${styles.projects-pd-text} ${styles.projects-pd-subdetail}`} */}
+                {/* Style[`logo${numIn}`] */}
+                {/* className={[styles.projects_pd_text, styles.projects_pd_subdetail].join(" ")} */}
                 <div className={styles.frame244}>
                     {arr.map((object) => {
-                        return <div className={styles.frame240}>
+                        return <div className={[styles.frame240, styles[`logo${numIn++}`]].join(" ")}>
+                            {/* {numIn=numIn+1} */}
                         <Image
                             src={object.image}
                             alt="Vercel Logo"
@@ -42,9 +48,9 @@ function SixthPage() {
                     </div>
                     })}
                 </div>
-                {/* <div className={styles.frame207}>
+                <div className={styles.frame207}>
                     <div>More Insights</div>
-                </div> */}
+                </div>
             </div>
 
         </div>
