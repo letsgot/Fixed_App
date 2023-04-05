@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from '@/styles/sixthPage.module.css'
 import Image from 'next/image'
-import arr from './Data/sixthPageData.json';
-function SixthPage() {
 
-    console.log(arr[0].head);
+import data from './Data/allData.json'
+function SixthPage() {
+    let arr = data[5];
+    // console.log(arr[0].head);
 
 
     return (

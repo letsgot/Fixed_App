@@ -2,19 +2,25 @@ import React from 'react'
 import styles from '@/styles/fourthPage.module.css'
 import Image from 'next/image'
 
+import data from './Data/allData.json'
+
+
 function FourthPage() {
+
+    let objects = data[3][0];
+
     return (
         <div className={styles.fourthPage}>
             <div className={styles.frame500}>
 
             </div>
             <div className={styles.frame500Desc}>
-                <div className={styles.head}>Tax Saver</div>
+                <div className={styles.head}>{objects.head}</div>
                 <div className={styles.container}>
-                Choose across investments that you can easily withdraw and liquidate in times of need
+                {objects.paragraph}
                 </div>
                 <div className={styles.buttonExplore}>
-                    <div>Save your tax</div>
+                    <div>{objects.button}</div>
                 </div>
             </div>
         </div>

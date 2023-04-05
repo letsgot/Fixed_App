@@ -1,0 +1,88 @@
+[
+    [
+        {
+            "frameImg": "./assets/Frame.svg",
+            "invest": "invest",
+            "blogs": "blogs",
+            "about": "about",
+            "bestinvestmentbutton": "Best Investments Options",
+            "optionImage": "./assets/optionsBar.svg",
+            "micImage": "./assets/Vector.svg",
+            "textOnAlert": "SBI FD rate climbed up to 8.5%",
+            "btnOnAlert": "Take Action",
+            "redbutton": "./assets/Rupee Gold Coin.svg",
+            "pbutton": "./assets/Percent Coin 1.svg",
+            "fbutton": "./assets/F Coin 2.svg",
+            "pageHeading": "Stress-Free Investing",
+            "buttonText": "Join the Waitlist",
+            "pageData": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+        }
+    ],
+    [
+        {
+            "head": "FD Bazaar",
+            "paragraph": " Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "button": "Explore FDs"
+        }
+    ],
+    [
+        {
+            "headPart1": "FD Bazaar",
+            "headPart2": "++",
+            "paragraph": " Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "button": "Explore FDs"
+        }
+    ],
+    [
+        {
+            "head": "Tax saver",
+            "paragraph": "Choose across investments that you can easily withdraw and liquidate in times of need",
+            "button": "Save your tax"
+        }
+    ],
+    [
+        {
+            "pageHead": "Why Fixed?",
+            "pagedesc": "Choose across investments that you can easily withdraw and liquidate in times of need",
+            "block1Head": "Safe investments that beat inflation",
+            "block1desc": "Low risk, High return investments that are easy to understand ",
+            "block1Img": "/assets/s1.svg",
+            "block2Head": "Safe investments that protect capital",
+            "block2desc": "Get access to stable and low risk investment options for goals where you cannot afford losses  ",
+            "block2Img": "/assets/s2.svg",
+            "block3Head": "Liquid investments to manage emergencies",
+            "block3desc": "Choose across investments that you can easily withdraw and liquidate in times of need ",
+            "block3Img": "/assets/s3.svg"
+        }
+    ],
+    [
+        {
+            "id": "1",
+            "head": "Save money, the right way",
+            "content": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "image": "/assets/Frame 240.png",
+            "date": "24 Nov 2023"
+        },
+        {
+            "id": "2",
+            "head": "Save money, the right way. Second line test",
+            "content": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "image": "/assets/Frame 241.png",
+            "date": "24 Nov 2023"
+        },
+        {
+            "id": "3",
+            "head": "Save money, the right way",
+            "content": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "image": "/assets/Frame 242.png",
+            "date": "24 Nov 2023"
+        },
+        {
+            "id": "4",
+            "head": "Save money, the right way. Second line test",
+            "content": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "image": "/assets/Frame 240.png",
+            "date": "24 Nov 2023"
+        }
+    ]
+]

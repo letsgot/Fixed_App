@@ -2,19 +2,24 @@ import React from 'react'
 import styles from '@/styles/fifthPage.module.css'
 import Image from 'next/image'
 
+
+import data from './Data/allData.json'
+
+
 function FifthPage() {
+    let objects = data[4][0];
     return (
         <div className={styles.fifthPage}>
             <div className={styles.frame288}>
                 <div className={styles.frame285}>
-                       <div className={styles.head}>Why Fixed?</div>
-                        <div className={styles.desc}> Choose across investments that you can easily withdraw and liquidate in times of need</div>
+                       <div className={styles.head}>{objects.pageHead}</div>
+                        <div className={styles.desc}> {objects.pagedesc}</div>
                 </div>
                 <div className={styles.frame280}>
                     <div className={styles.frame277}>
                         <div className={styles.head}><span>
                         <Image
-                            src="/assets/s1.svg"
+                            src={objects.block1Img}
                             alt="Vercel Logo"
                             className={styles.frame240Image}
                             width={108.75}
@@ -23,13 +28,13 @@ function FifthPage() {
                             // height: 30px;
                             priority
                         />
-                            </span>Safe investments that beat inflation</div>
-                        <div className={styles.desc}>Low risk, High return investments that are easy to understand </div>
+                            </span>{objects.block1Head}</div>
+                        <div className={styles.desc}>{objects.block1desc}</div>
                     </div>
                     <div className={styles.frame278}>
                         <div className={styles.head}><span>
                         <Image
-                            src="/assets/s2.svg"
+                            src= {objects.block2Img}
                             alt="Vercel Logo"
                             className={styles.frame240Image}
                             width={108.75}
@@ -38,13 +43,13 @@ function FifthPage() {
                             // height: 30px;
                             priority
                         />
-                            </span>Safe investments that protect capital</div>
-                        <div className={styles.desc}>Get access to stable and low risk investment options for goals where you cannot afford losses </div>
+                            </span> {objects.block2Head}</div>
+                        <div className={styles.desc}> {objects.block2desc}</div>
                     </div>
                     <div className={styles.frame279}>
                         <div className={styles.head}><span>
                         <Image
-                            src="/assets/s3.svg"
+                            src= {objects.block3Img}
                             alt="Vercel Logo"
                             className={styles.frame240Image}
                             width={108.75}
@@ -53,8 +58,8 @@ function FifthPage() {
                             // height: 30px;
                             priority
                         />
-                            </span>Liquid investments to manage emergencies </div>
-                        <div className={styles.desc}> Choose across investments that you can easily withdraw and liquidate in times of need</div>
+                            </span> {objects.block3Head} </div>
+                        <div className={styles.desc}> {objects.block3desc}</div>
                     </div>
                 </div>
             </div>

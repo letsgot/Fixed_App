@@ -14,11 +14,15 @@ import EighthPage from './EighthPage';
 import NinethPage from './NinethPage';
 import TenthPage from './TenthPage';
 import EleventhPage from './EleventhPage';
+import { useState } from 'react';
 // import MeetTheTeam from '../new/meet-the-team-container'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  
+
   return (
     <>
       <Head>

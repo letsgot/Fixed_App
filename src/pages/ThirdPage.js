@@ -2,7 +2,14 @@ import React from 'react'
 import styles from '@/styles/thirdPage.module.css'
 import Image from 'next/image'
 
+
+import data from './Data/allData.json'
+
+
 function ThirdPage() {
+  let objects = data[2][0];
+
+
   return (
     <div className={styles.thirdPage}>
 
@@ -11,12 +18,12 @@ function ThirdPage() {
       </div>
 
       <div className={styles.frame273Desc}>
-        <div className={styles.head}>Savings<span>++</span></div>
+        <div className={styles.head}>{objects.headPart1}<span>{objects.headPart2}</span></div>
         <div className={styles.container}>
-          Get access to stable and low risk investment options for goals where you cannot afford losses
+          {objects.paragraph}
         </div>
         <div className={styles.saveNow}>
-          <div>Save now</div>
+          <div>{objects.button}</div>
         </div>
       </div>
     </div>
