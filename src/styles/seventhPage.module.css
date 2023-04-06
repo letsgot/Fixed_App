@@ -14,7 +14,7 @@
     height: 100vh;
 
     background: linear-gradient(180deg, #F6F6F6 0%, rgba(255, 255, 255, 0.984043) 14.35%);
-    border-radius: 0px 0px 80px 80px;
+    /* border-radius: 0px 0px 80px 80px; */
 
     /* Inside auto layout */
     flex: none;
@@ -1218,7 +1218,7 @@ height: 21px;
 font-family: 'Futura PT';
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+/* font-size: 12px; */
 line-height: 21px;
 /* identical to box height */
 
