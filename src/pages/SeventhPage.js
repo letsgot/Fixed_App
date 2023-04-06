@@ -57,7 +57,7 @@ function SeventhPage() {
                 return
               }
               else {
-                return <div className={styles.frame259}>
+                return <div key={i} className={styles.frame259}>
                   <Image
                     alt='Mountains'
                     className={styles.photo}

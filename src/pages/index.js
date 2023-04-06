@@ -54,9 +54,9 @@ export default function Home() {
           <Navbar key="1.1" handleCallback={callback}></Navbar>
           <Main key="1.2" ></Main>
         </>:<>
-          <NavbarAfterDropdown handleCallback={callback}></NavbarAfterDropdown>
-          <DropDownOnFirstPage></DropDownOnFirstPage>
-          <MainAfterDropdown></MainAfterDropdown>
+          <NavbarAfterDropdown key="1.5" handleCallback={callback}></NavbarAfterDropdown>
+          <DropDownOnFirstPage key="1.6"></DropDownOnFirstPage>
+          <MainAfterDropdown key="1.7"></MainAfterDropdown>
         </>
       }
 
