@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.33.0",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "git": "^0.1.5",
@@ -16,5 +17,3 @@
     "react-dom": "18.2.0"
   }
 }
-
-
