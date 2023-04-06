@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && next export",
+    "start": "next start"
   },
   "dependencies": {
     "eslint": "8.36.0",
@@ -17,3 +16,5 @@
     "react-dom": "18.2.0"
   }
 }
+
+
