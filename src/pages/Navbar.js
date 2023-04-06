@@ -1,4 +1,3 @@
-// import React from 'react'
 import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 import React, { useEffect, useState } from "react";
@@ -6,35 +5,23 @@ import Router from 'next/router'
 
 import data from './Data/allData.json'
 
-
-// import styles from '@/styles/Home.module.css'
-function Navbar() {
+function Navbar(props) {
   let objects = data[0][0];
-  // console.log(objects);
   const [loaded, setLoaded] = useState(false)
-  // useEffect(() => {
-  //   const { pathname } = Router
-  //   // conditional redirect
-  //   if (pathname == '/') {
-  //     // with router.push the page may be added to history
-  //     // the browser on history back will  go back to this page and then forward again to the redirected page
-  //     // you can prevent this behaviour using location.replace
-  //     Router.push('/TenthPage')
-  //     //location.replace("/hello-nextjs")
-  //   } else {
-  //     setLoaded(true)
-  //   }
-  // }, []);
+
+  console.log("props         "+props.handleCallback);
 
   const handleNavbar = ()=>{
      const { pathname } = Router;
      if (pathname == '/') {
-      // with router.push the page may be added to history
-      // the browser on history back will  go back to this page and then forward again to the redirected page
-      // you can prevent this behaviour using location.replace
       Router.push('/NavbarForMobile')
-      //location.replace("/hello-nextjs")
     }
+  }
+
+
+  let handleWorkDone = (task)=>{
+    console.log(task);
+    {props.handleCallback(task)};
   }
 
 
@@ -47,13 +34,11 @@ function Navbar() {
           className={styles.vercelLogo}
           width={108.75}
           height={30}
-          //                 width: 108.75px;
-          // height: 30px;
           priority
         />
 
         <div className={styles.frame238}>
-          <div>{objects.invest}<select></select></div>
+          <div onClick={()=>handleWorkDone(false)}>{objects.invest}<select></select></div>
           <div>{objects.blogs}</div>
           <div>{objects.about}</div>
         </div>
@@ -70,8 +55,6 @@ function Navbar() {
             className={styles.vercelLogo}
             width={108.75}
             height={30}
-            //                 width: 108.75px;
-            // height: 30px;
             onClick={handleNavbar}
 
             priority

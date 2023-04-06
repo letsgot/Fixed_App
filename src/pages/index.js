@@ -16,12 +16,24 @@ import TenthPage from './TenthPage';
 import EleventhPage from './EleventhPage';
 import { useState } from 'react';
 // import MeetTheTeam from '../new/meet-the-team-container'
+import MainAfterDropdown from './MainAfterDropdown';
+import DropDownOnFirstPage from './DropDownOnFirstPage';
+import NavbarAfterDropdown from './NavbarAfterDropdown';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
+  let [dropdown,handleDropdown] = useState(true);
+ 
   
+  let callback = (curr)=>{
+    console.log(curr);
+      let check = curr;
+      handleDropdown(check);
+  }
+
+  console.log(callback);
 
   return (
     <>
@@ -32,8 +44,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar key="1.1"></Navbar>
-      <Main key="1.2" ></Main>
+      {/* <Navbar key="1.1"></Navbar>
+      <Main key="1.2" ></Main> */}
+      {/* <NavbarAfterDropdown></NavbarAfterDropdown>
+      <DropDownOnFirstPage></DropDownOnFirstPage>
+      <MainAfterDropdown></MainAfterDropdown> */}
+
+      {(dropdown) ?
+        <>
+          <Navbar key="1.1" handleCallback={callback}></Navbar>
+          <Main key="1.2" ></Main>
+        </>:<>
+          <NavbarAfterDropdown handleCallback={callback}></NavbarAfterDropdown>
+          <DropDownOnFirstPage></DropDownOnFirstPage>
+          <MainAfterDropdown></MainAfterDropdown>
+        </>
+      }
+
       <SecondPage key="2"></SecondPage>
       <ThirdPage key="3"></ThirdPage>
       <FourthPage key="4"></FourthPage>

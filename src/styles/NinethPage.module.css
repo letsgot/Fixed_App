@@ -136,7 +136,7 @@
 
 
     width: 100%;
-    height: calc(100%-30%);
+    height: 70%;
 
     /* background-color: gray; */
     /* Inside auto layout */
@@ -155,4 +155,225 @@
     width: 35%;
     height: 35%;
     object-fit: contain;
+}
+
+@media screen and (max-width:450px) {
+    .NinethPage {
+       
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 48px 24px;
+
+width: 375px;
+height: 402px;
+
+background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 52.6%, #FFFFFF 100%);
+border-radius: 0px 0px 48px 48px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 10;
+flex-grow: 0;
+    }
+    
+    .Nframe294 {
+       /* Frame 294 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 327px;
+height: 306px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    
+    .Nframe290 {
+       /* Frame 290 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 327px;
+height: 136px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    
+    .Nframe290>.head {
+       /* Follow us */
+
+
+width: 327px;
+height: 41px;
+
+/* Heading_32px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 41px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Brand/Blue */
+
+color: #121B64;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+    }
+    
+    .Nframe290>.desc {
+        /* Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence. */
+    
+width: 327px;
+height: 63px;
+
+/* Paragraph_16px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+    }
+    
+    .Nframe293 {
+       /* Frame 293 */
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       padding: 22px -4px;
+       /* gap: 256px; */
+       width: 327px;
+       height: 138px;
+       background: #FFFFFF;
+       flex: none;
+       order: 1;
+       align-self: stretch;
+       flex-grow: 0;
+    }
+
+
+    
+
+    .Nframe293>.spaceForImage {
+        /* Frame 315 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 100px;
+height: 74px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+    
+    .spaceForImage>.vercelLogo {
+        
+width: 48px;
+height: 48px;
+        /* object-fit: contain; */
+    }
+
+    .spaceForImage > .desc {
+        /* @fixedInvestments */
+
+
+width: 99px;
+height: 18px;
+
+/* Paragraph_14px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Grey */
+
+color: #686868;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+    
 }

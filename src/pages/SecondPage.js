@@ -8,7 +8,7 @@ import data from './Data/allData.json'
 
 function SecondPage() {
 
-    let objects = data[2][0];
+    let objects = data[1][0];
 
     console.log(objects);
 

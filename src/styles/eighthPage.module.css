@@ -1,158 +1,329 @@
 .eighthPage {
-/* Frame 100 */
-box-sizing: border-box;
+    /* Frame 100 */
+    box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 4% 4%;
-gap: 32px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 4%;
+    gap: 32px;
 
-width: 100vw;
-height: 100vh;
+    width: 100vw;
+    height: 100vh;
 
-background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
-border-radius: 0px 0px 80px 80px;
-/* background-color: aqua; */
-/* Inside auto layout */
-flex: none;
-order: 9;
-flex-grow: 0;
+    background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
+    border-radius: 0px 0px 80px 80px;
+    /* background-color: aqua; */
+    /* Inside auto layout */
+    flex: none;
+    order: 9;
+    flex-grow: 0;
 }
 
-.frame294{
-/* Auto layout */
+.frame294 {
+    /* Auto layout */
 
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
 
-width: 85%;
-height: 100%;
+    width: 85%;
+    height: 100%;
 
-/* background-color: #aaaea1; */
-/* Inside auto layout */
+    /* background-color: #aaaea1; */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.frame290{
-/* Frame 290 */
+.frame290 {
+    /* Frame 290 */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
 
-width: 100%;
-height: 40%;
+    width: 100%;
+    height: 40%;
 
-/* background-color: bisque; */
+    /* background-color: bisque; */
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.frame290 > .head{
+.frame290>.head {
     /* In the press */
 
 
-width: 90%;
-height: 40%;
+    width: 90%;
+    height: 40%;
 
-/* background-color: #32302F; */
+    /* background-color: #32302F; */
 
-/* Heading_64px */
+    /* Heading_64px */
 
-font-family: 'Futura PT';
-font-style: normal;
-font-weight: 500;
-font-size: 64px;
-line-height: 120%;
-/* identical to box height, or 77px */
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    /* identical to box height, or 77px */
 
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
-/* Brand/Blue */
+    /* Brand/Blue */
 
-color: #121B64;
+    color: #121B64;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.frame290 > .desc{
+.frame290>.desc {
     /* Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence. */
 
 
-width: 90%;
-height: calc(100%-40%);
+    width: 90%;
+    height: calc(100%-40%);
 
-/* Paragraph_28px */
+    /* Paragraph_28px */
 
-font-family: 'Futura PT';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 36px;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
-/* Black */
+    /* Black */
 
-color: #32302F;
+    color: #32302F;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .frame293 {
-/* Frame 293 */
+    /* Frame 293 */
 
 
-width: 100%;
-height: calc(100%-30%);
+    width: 100%;
+    height: calc(100%-30%);
 
-/* background-color: gray; */
-/* Inside auto layout */
+    /* background-color: gray; */
+    /* Inside auto layout */
 
-/* background-color: gray; */
+    /* background-color: gray; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .frame293>.vercelLogo {
     width: 35%;
     height: 35%;
     object-fit: contain;
+}
+
+@media screen and (max-width : 450px) {
+    .eighthPage {
+        /* Frame 100 */
+
+
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 48px 24px;
+
+        width: 375px;
+        height: 304px;
+
+        background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 17.24%, #FFFFFF 100%);
+        border-radius: 0px 0px 48px 48px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 9;
+        flex-grow: 0;
+    }
+
+    .frame294 {
+        /* Frame 294 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+
+        width: 327px;
+        height: 230px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .frame290 {
+        /* Frame 290 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+
+        width: 327px;
+        height: 136px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .frame290>.head {
+        /* In the press */
+        /* In the press */
+
+
+        width: 155px;
+        height: 41px;
+
+        /* Heading_32px */
+
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Brand/Blue */
+
+        color: #121B64;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .frame290>.desc {
+        /* Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence. */
+
+        width: 327px;
+        height: 63px;
+
+        /* Paragraph_16px */
+
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Black */
+
+        color: #32302F;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .frame293 {
+        /* Frame 293 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+
+        width: 327px;
+        height: 40px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .frame293>.vercelLogo {
+        width: 76px;
+        height: 27.2px;
+        /* left: 1.87px; */
+        /* top: 12.8px; */
+        object-fit: contain;
+    }
 }

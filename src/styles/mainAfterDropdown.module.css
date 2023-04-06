@@ -1,0 +1,269 @@
+.frame263 {
+    /* Frame 263 */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    /* gap: 10px; */
+
+    width: 100vw;
+    height: 6vh;
+
+    background: #F7F7F7;
+    backdrop-filter: blur(16px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 32px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.actionOnFrame263 {
+
+    width: 79px;
+    height: 21px;
+
+    /* Heading_16px */
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Green Pastel */
+
+    color: #7E8139;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.SbiFrame263 {
+    /* SBI FD rate climbed up to 8.5% */
+
+
+    width: 210px;
+    height: 21px;
+
+    /* Heading_16px */
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #32302F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main {
+    /* Hero */
+    width: 100vw;
+    height: calc(100vh - 20.1vh);
+
+    /* White */
+
+    /* background: #ef2d2d; */
+    border-radius: 0px 0px 80px 80px;
+
+    /* Inside auto layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame308 {
+    /* Frame 308 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    left: calc(50% - 60%/2 - 1%);
+    top: calc(50% - 40%/2 - 1%);
+
+}
+
+.frame308Head {
+    /* Stress-Free Investing */
+
+    width: 100%;
+    height: 30%;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7vw;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    color: #121B64;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* margin-left: 16vw; */
+}
+
+.frame308Desc {
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. */
+
+    width: 55%;
+    height: 20%;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    /* line-height: 36px; */
+    display: flex;
+    margin-right: 39vw;
+    text-align: center;
+    color: #32302F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    align-items: center;
+    flex-direction: row;
+}
+
+.frame308Button {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 160px;
+    height: 53px;
+    background: #121B64;
+    border-radius: 32px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-right: 35vw;
+}
+
+.frame308Button button {
+    /* Join the Waitlist */
+
+
+    width: 155px;
+    height: 21px;
+
+    /* Heading_16px */
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    /* White */
+    background-color: #121B64;
+    color: #FFFFFF;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* coins css  */
+
+.RGCoin {
+    /* Rupee Gold Coin */
+    position: absolute;
+    width: 218px;
+    height: 216px;
+    left: 30px;
+    top: 80px;
+    background: url();
+    transform: rotate(48.45deg);
+}
+
+.fCoin2 {
+    /* F Coin 2 */
+    position: absolute;
+    width: 216px;
+    height: 216px;
+    right: 50px;
+    top: 80px;
+    background: url();
+}
+
+.pCoin1 {
+    /* Percent Coin 1 */
+    position: absolute;
+    width: 216px;
+    height: 216px;
+    left: 99px;
+    bottom: 18px;
+    background: url();
+}
+
+.ACoin1 {
+    /* Arrow Coin 1 */
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 150px;
+    bottom: 18px;
+
+    /* background: url(Arrow Coin.png); */
+}

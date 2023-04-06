@@ -229,3 +229,184 @@
         flex-grow: 0;
     }
 }
+
+
+@media screen and (max-width : 450px) {
+    .tenthPage {
+
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 48px 24px;
+        gap: 10px;
+
+        width: 375px;
+        height: 317px;
+
+        background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 23.92%);
+        border-radius: 0px 0px 48px 48px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 11;
+        flex-grow: 0;
+    }
+
+    .frame294 {
+        /* Frame 294 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+
+        width: 327px;
+        height: 221px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .frame294>.head {
+        /* Start Investing */
+
+
+        width: 327px;
+        height: 41px;
+
+        /* Heading_32px */
+
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Brand/Blue */
+
+        color: #121B64;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .frame294>.desc {
+        /* Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence. */
+
+
+        width: 327px;
+        height: 63px;
+
+        /* Paragraph_16px */
+
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Black */
+
+        color: #32302F;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+
+
+    .frame308Button {
+        /* Auto layout */
+        /* Frame 239 */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+
+        width: 110px;
+        height: 53px;
+
+        /* Brand/Blue */
+
+        background: #121B64;
+        border-radius: 32px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .frame308Button button {
+        /* Invest Now */
+
+
+        width: 78px;
+        height: 21px;
+
+        /* Heading_16px */
+
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* White */
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+}

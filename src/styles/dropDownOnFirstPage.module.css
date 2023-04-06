@@ -1,0 +1,19 @@
+.invest {
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+/* padding: 0px 72px; */
+
+/* position: relative;/ */
+width: 100vw;
+height: 8vh;
+/* left: 2213px; */
+/* top: 876px; */
+
+background: #FFFFFF;
+/* background-color: aquamarine; */
+box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.06);
+}
