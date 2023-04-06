@@ -175,7 +175,7 @@ width: 375px;
 height: 402px;
 
 background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 52.6%, #FFFFFF 100%);
-border-radius: 0px 0px 48px 48px;
+/* border-radius: 0px 0px 48px 48px; */
 
 /* Inside auto layout */
 
@@ -302,6 +302,7 @@ flex-grow: 0;
        justify-content: space-between;
        align-items: center;
        padding: 22px -4px;
+       margin: 0;
        /* gap: 256px; */
        width: 327px;
        height: 138px;

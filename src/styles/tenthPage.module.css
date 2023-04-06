@@ -248,7 +248,7 @@
         height: 317px;
 
         background: linear-gradient(180deg, #F6F6F6 0%, #FFFFFF 23.92%);
-        border-radius: 0px 0px 48px 48px;
+        /* border-radius: 0px 0px 48px 48px; */
 
         /* Inside auto layout */
 
