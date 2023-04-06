@@ -27,7 +27,7 @@ function SixthPage() {
                 {/* className={[styles.projects_pd_text, styles.projects_pd_subdetail].join(" ")} */}
                 <div className={styles.frame244}>
                     {arr.map((object) => {
-                        return <div className={[styles.frame240, styles[`logo${numIn++}`]].join(" ")}>
+                        return <div key={numIn} className={[styles.frame240, styles[`logo${numIn++}`]].join(" ")}>
                             {/* {numIn=numIn+1} */}
                         <Image
                             src={object.image}
