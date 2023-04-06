@@ -32,14 +32,16 @@ function EleventhPage() {
                                 <Image
                                     src="./assets/callImage.svg"
                                     alt="Vercel Logo"
-                                    className={styles.callImage}
+                                    className={styles.calImage}
                                     width={100.75}
                                     height={30}
                                     //                 width: 108.75px;
                                     // height: 30px;
                                     priority
                                 />
-                            </div>Call +91 9876543210</div>
+                               <div className={styles.callNumber}> Call +91 9876543210 </div>
+                            </div>
+                            </div>
                     </div>
                     <div className={styles.content3}>
                         <div className={styles.head}>Company</div>

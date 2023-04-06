@@ -26,14 +26,13 @@ export default function Home() {
 
   let [dropdown,handleDropdown] = useState(true);
  
-  
   let callback = (curr)=>{
     console.log(curr);
       let check = curr;
       handleDropdown(check);
   }
-
-  console.log(callback);
+  
+  // console.log(callback);
 
   return (
     <>
@@ -76,3 +75,5 @@ export default function Home() {
     </>
   )
 }
+
+

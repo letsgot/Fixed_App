@@ -1,19 +1,21 @@
 import React from 'react'
 import styles from '@/styles/eighthPage.module.css'
-import Image from 'next/image'
+import Image from 'next/image';
+import data from './Data/allData.json'
 function EighthPage() {
+    let objects = data[7][0];
     return (
         <div className={styles.eighthPage}>
             <div className={styles.frame294}>
                 <div className={styles.frame290}>
-                    <div className={styles.head}>In the press</div>
-                    <div className={styles.desc}>Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence.</div>
+                    <div className={styles.head}>{objects.head}</div>
+                    <div className={styles.desc}>{objects.content}</div>
                 </div>
                 <div className={styles.frame293}>
                     <Image
                         alt='Mountains'
                         className={styles.vercelLogo}
-                        src='./assets/image 16.svg'
+                        src={objects.img1}
                         width={108}
                         height={30}
                     />
@@ -21,7 +23,7 @@ function EighthPage() {
                     <Image
                         alt='Mountains'
                         className={styles.vercelLogo}
-                        src="./assets/image 14.svg"
+                        src={objects.img2}
                         width={108}
                         height={30}
                     />
@@ -30,7 +32,7 @@ function EighthPage() {
                     <Image
                         alt='Mountains'
                         className={styles.vercelLogo}
-                        src='./assets/image 15.svg'
+                        src={objects.img3}
                         width={30}
                         height={30}
                     />

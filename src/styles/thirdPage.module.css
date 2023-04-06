@@ -20,8 +20,8 @@
 }
 
 .frame273 {
-  width: 28%;
-  height: 90%;
+  width: 300px;
+  height: 300px;
   background: #F4F3F3;
   /* background-color: #32302F; */
   flex: none;
@@ -221,7 +221,7 @@
   flex-grow: 0;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:430px) {
   .thirdPage {
     /* Hero */
     

@@ -2,9 +2,11 @@ import React from 'react'
 import Image from 'next/image';
 // import { Inter } from 'next/font/google';
 import styles from '@/styles/seventhPage.module.css';
-import objects from './Data/teamdata'
+// import objects from './Data/teamdata'
+import data from './Data/allData.json'
 
 function SeventhPage() {
+  let objects = data[6];
   console.log(objects);
   return (
     <div className={styles.seventhPage}>

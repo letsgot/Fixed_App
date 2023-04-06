@@ -702,7 +702,20 @@ bottom: 8.63%; */
 /* White off */
 
 /* border: 2px solid #F6F6F6; */
+    /* border: 2px solid #F6F6F6; */
+    height: 83px;
+    width: 144px;
+    margin-left: -37px;
+    margin-top: -4px;
+    display: flex;
+    align-items: center;
 }
 
+
+.callNumber {
+    /* margin-top: -10%; */
+    font-size: 18px;
+    /* margin-top: -70px; */
+}
    
 }

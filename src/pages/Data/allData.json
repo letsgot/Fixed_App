@@ -27,7 +27,7 @@
     ],
     [
         {
-            "headPart1": "FD Bazaar",
+            "headPart1": "Savings",
             "headPart2": "++",
             "paragraph": " Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
             "button": "Explore FDs"
@@ -83,6 +83,70 @@
             "content": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
             "image": "/assets/Frame 240.png",
             "date": "24 Nov 2023"
+        }
+    ],
+    [
+        {  
+            "id":"1",
+            "name":"Akshar Shah" ,
+            "Role":"Founder and CEO",
+            "image":"/assets/mtt1.png"
+        },
+        {  
+            "id":"2",
+            "name":"Akshar Shah" ,
+            "Role":"Founder and CEO",
+            "image":"/assets/mtt2.png"
+        },
+        {   
+            "id":"3",
+            "name":"Akshar Shah" ,
+            "Role":"Founder and CEO",
+            "image":"/assets/mtt3.png"
+        },
+        {   
+            "id":"4",
+            "name":"Akshar Shah" ,
+            "Role":"Founder and CEO",
+            "image":"/assets/mtt4.png"
+        },
+        {   
+            "id":"5",
+            "name":"Akshar Shah" ,
+            "Role":"Founder and CEO",
+            "image":"/assets/mtt5.png"
+        },
+        {   
+            "id":"6",
+            "name":"Akshar Shah" ,
+            "Role":"Founder and CEO",
+            "image":"/assets/mtt6.png"
+        }
+    ],
+    [
+        {
+            "head":"In the press",
+            "content":"Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence.",
+            "img1" : "./assets/image 16.svg",
+            "img2" : "./assets/image 14.svg",
+            "img3" : "./assets/image 15.svg"
+        }
+    ],
+    [
+        {
+            "head":"Follow us",
+            "content":"Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence.",
+            "img1" : "./assets/_YouTube.svg",
+            "img2" : "./assets/_Linkedin.svg",
+            "img3" : "./assets/_Telegram.svg",
+            "desc" : "@fixedInvestments"
+        }
+    ],
+    [
+        {
+            "head":"Start Investing",
+            "content":"Discover the passion, expertise, and values that drive our team and fuel their commitment to excellence.",
+            "button" : "Invest Now"
         }
     ]
 ]

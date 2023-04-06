@@ -48,9 +48,9 @@ function SixthPage() {
                     </div>
                     })}
                 </div>
-                <div className={styles.frame207}>
+                {/* <div className={styles.frame207}>
                     <div>More Insights</div>
-                </div>
+                </div> */}
             </div>
 
         </div>

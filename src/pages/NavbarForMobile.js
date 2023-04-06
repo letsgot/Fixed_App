@@ -26,6 +26,31 @@ function NavbarForMobile() {
     }
 
 
+    const handleFdBazzar = () => {
+        const { pathname } = Router;
+        if (pathname == '/NavbarForMobile') {   
+          Router.push('/SecondPage')
+        }
+      }
+    
+    
+      const handleSaving = () => {
+        const { pathname } = Router;
+        if (pathname == '/NavbarForMobile') {
+          Router.push('/ThirdPage')
+        }
+      }
+    
+    
+      const handleTax = () => {
+        const { pathname } = Router;
+        if (pathname == '/NavbarForMobile') {
+          Router.push('/FourthPage')
+        }
+      }
+    
+
+
 
     return (
         <div className={styles.navbarForMobile}>
@@ -81,9 +106,9 @@ function NavbarForMobile() {
                         if (show) {
                             return (
                                 <div className={styles.options}>
-                                    <div className={styles.option}>FD Bazaar</div>
-                                    <div className={styles.option}>Savings ++</div>
-                                    <div className={styles.option}>Tax Saver</div>
+                                    <div className={styles.option} onClick={handleFdBazzar}>FD Bazaar</div>
+                                    <div className={styles.option} onClick={handleSaving}>Savings ++</div>
+                                    <div className={styles.option} onClick={handleTax}>Tax Saver</div>
                                 </div>
                             )
                         } else {
