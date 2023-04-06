@@ -23,7 +23,7 @@ function ThirdPage() {
           {objects.paragraph}
         </div>
         <div className={styles.saveNow}>
-          <div>{objects.button}</div>
+          <div>Save now</div>
         </div>
       </div>
     </div>

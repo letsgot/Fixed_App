@@ -24,7 +24,7 @@ function SecondPage() {
                 </div>
                 <div className={styles.buttonExplore}>
                     {/* lorem Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. */}
-                    <div>{objects.button}</div>
+                    <div className={styles.div}>{objects.button}</div>
                 </div>
             </div>
         </div>

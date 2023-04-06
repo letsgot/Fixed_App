@@ -217,21 +217,7 @@ order: 1;
 flex-grow: 0;
 }
 
-.callImage {
 
-    /* height: 1%;
-    width: 1%;
-     */
-/* position: absolute;
-left: 8.8%;
-right: 8.33%;
-top: 8.33%;
-bottom: 8.63%; */
-
-/* White off */
-
-/* border: 2px solid #F6F6F6; */
-}
 
 .frame99Content>.topContent>.content3{
 /* Auto layout */
@@ -456,6 +442,11 @@ flex-grow: 0;
 .logos>.logoImage{
     height: 10%;
     width: 10%;
+}
+
+.callImage {
+    display: flex;
+    flex-direction: row;
 }
 
 
