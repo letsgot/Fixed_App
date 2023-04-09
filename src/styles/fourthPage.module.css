@@ -271,6 +271,8 @@
       
       width: 375px;
       height: 652px;
+
+      /* overflow-x: hidden; */
       
       background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
       /* border-radius: 0px 0px 48px 48px; */

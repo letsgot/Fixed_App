@@ -10,9 +10,12 @@
   /* border: 2px solid cyan; */
   width: 100vw;
   height: 14.1vh;
+  /* overflow-x: hidden; */
   /* White */
   background: #FFFFFF;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 1;
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -496,6 +499,7 @@ border-radius: 32px;
   flex-grow: 0;
 }
 
+
 @media screen and (max-width: 900px) {
 
   .frame238 {
@@ -757,8 +761,272 @@ border-radius: 32px;
 
 }
 
+@media screen and (min-width:700px) and (min-height:1010px) {
+  
+  .frame238 {
+    display: none;
+  }
 
-@media screen and (max-width: 430px) {
+  .frame239 {
+    display: none;
+  }
+
+  .optionsBar {
+    display: block;
+   
+  }
+  
+  .optionsBar>.vercelLogo {
+    align-items: stretch;
+    height: 20%;
+    width: 84%;
+  }
+
+  
+.frame308Desc {
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. */
+
+  width: 55%;
+  height: 20%;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 36px; */
+  display: flex;
+  margin-right: 39vw;
+  text-align: center;
+  color: #32302F;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  align-items: center;
+  flex-direction: row;
+}
+
+.frame308Button {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 209px;
+  height: 40px;
+  background: #121B64;
+  /* background:white; */
+  border-radius: 40px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-right: 35vw;
+}
+
+.frame308Button button {
+  /* Join the Waitlist */
+
+
+  width: 150px;
+  height: 40px;
+
+  /* Heading_16px */
+
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  /* White */
+  background-color: #121B64;
+  color: #FFFFFF;
+  border: none;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+.RGCoin {
+  /* Rupee Gold Coin */
+  position: absolute;
+    width: 190px;
+    height: 190px;
+    left: 12px;
+    top: 280px;
+    background: url();
+    transform: rotate(48.45deg);
+}
+
+.fCoin2 {
+  /* F Coin 2 */
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  right: 32px;
+  top: 270px;
+  background: url();
+}
+
+.pCoin1 {
+  /* Percent Coin 1 */
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 150px;
+  bottom: 178px;
+  background: url();
+}
+
+.ACoin1 {
+  /* Arrow Coin 1 */
+
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  right: 100px;
+  bottom: 178px;
+  
+  /* background: url(Arrow Coin.png); */
+}
+
+
+
+
+/* coins css  */
+
+
+  /* second PAge  */
+  .frame289 {
+    width: 200px;
+    height: 200px;
+    background: #F4F3F3;
+    /* background-color: #32302F; */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+.frame289Desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 32px;
+  width: 70%;
+  height: 250px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+
+
+
+.frame289Desc>.head {
+  /* FD Bazaar */
+
+  width: 100%;
+  height: 30%;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  font-size: 64px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #121B64;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+
+
+.frame289Desc>.container {
+
+  width: 100%;
+  height: 50%;
+
+  /* Paragraph_28px */
+
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* Black */
+
+  color: #32302F;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buttonExplore {
+  height: 60%;
+  width: 42%;
+/* background-color: #F4F3F3; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.buttonExplore div {
+  /* Explore FDs */
+
+  width: 150px;
+  height: 80px;
+border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 15px;
+  /* text-align: center; */
+  color: #121B64;
+  border: 1px solid black;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+}
+
+
+@media screen and (max-width: 430px) AND (max-height:896px)  {
+  
+
   .navbar {
     /* Nav Bar */
 
@@ -779,6 +1047,8 @@ height: 50px;
 
 background: #FFFFFF;
 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+position: fixed;
+z-index: 1;
 
 /* Inside auto layout */
 
@@ -909,7 +1179,7 @@ flex-grow: 0;
 
 
 width: 375px;
-height: 417px;
+height: 500px;
 
 /* White */
 
@@ -919,6 +1189,7 @@ border-radius: 0px 0px 48px 48px;
 display: flex;
 align-items: center;
 justify-content: center;
+/* margin-top: -100px; */
 
 /* Inside auto layout */
 
@@ -1069,9 +1340,546 @@ flex-grow: 0;
 
 .RGCoin {
   position: absolute;
-  width: 61.72px;
-  height: 85.72px;
-  left: 16.44px;
+  width: 134px;
+  height: 90px;
+  left: 19px;
+  top: 151px;
+  background: url();
+  transform: rotate(48.45deg);
+}
+
+.fCoin2 {
+ /* F Coin 2 */
+ position: absolute;
+ width: 134px;
+ height: 97px;
+ right: 0px;
+ top: 141px;
+}
+
+.pCoin1 {
+  /* Percent Coin 1 */
+  position: absolute;
+  width: 134px;
+  height: 74px;
+  left: 27px;
+  top: 393px;
+  bottom: 189px;
+  bottom: 53px;
+/* background: url(Percent Coin.png); */
+}
+
+.ACoin1 {
+  /* Arrow Coin 1 */
+
+
+  position: absolute;
+  width: 134px;
+  height: 74px;
+  right: 5px;
+  top: 393px;
+  bottom: 189px;
+  bottom: 53px;
+
+/* background: url(Arrow Coin.png); */
+}
+
+
+
+
+/* -------------------- */
+
+/* Second Page  */
+.secondPage {
+  /* Hero */
+  
+  
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: centre;
+  padding: 48px 24px;
+  gap: 24px;
+  
+  width: 375px;
+  height: 652px;
+  background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+  /* border-radius: 0px 0px 48px 48px; */
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  }
+  
+  .frame289 {
+   /* Frame 289 */
+  
+   width: 327px;
+   height: 327px;
+   
+   background: #F4F3F3;
+   margin-left: 10px;
+   /* Inside auto layout */
+   
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+  }
+  /* 
+  .frame289Desc {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 48px 24px;
+  gap: 24px;
+  
+  width: 375px;
+  height: 652px;
+  
+  background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
+  border-radius: 0px 0px 48px 48px;
+  
+  /* Inside auto layout */
+  /*
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  } */
+  
+  .frame289Desc>.head {
+        /* FD Bazaar */
+        width: 327px;
+        height: 41px;
+        
+        /* Heading_32px */
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 41px;
+        /* identical to box height */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+        /* Brand/Blue */
+        
+        color: #121B64;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+  }
+  
+  
+  
+  .frame289Desc>.container {
+    width: 327px;
+        height: 63px;
+        
+        /* Paragraph_16px */
+        
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-left: -40px;
+        
+        /* Black */
+        
+        color: #32302F;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+  }
+  
+  .buttonExplore {
+    /* height: 40px;
+    width: 100px;
+  background-color: #F4F3F3;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  } 
+  
+  .buttonExplore div {
+   /* Explore FDs */
+  
+  
+  width: 81px;
+  height: 40px;
+  
+  /* Heading_16px */
+  
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  text-align: center;
+  /* margin-left: 160px; */
+  
+  /* Brand/Blue */
+  
+  color: #121B64;
+  border: 1px solid black;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+
+}
+
+
+
+@media screen and (max-width: 430px) and (max-height:680px)  {
+  
+
+  .navbar {
+    /* Nav Bar */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 24px;
+gap: 359px;
+
+width: 375px;
+height: 50px;
+
+/* White */
+
+background: #FFFFFF;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+position: fixed;
+z-index: 1;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  
+  
+
+  
+  .frame263 {
+    /* Frame 263 */
+  
+  /* Frame 336 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+width: 375px;
+height: 40px;
+
+background: #F7F7F7;
+backdrop-filter: blur(16px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  
+  .actionOnFrame263 {
+  
+    width: 79px;
+    height: 21px;
+  
+    /* Heading_16px */
+  
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 21px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    /* Green Pastel */
+  
+    color: #7E8139;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  
+  .SbiFrame263 {
+    /* SBI FD rate climbed up to 8.5% */
+  
+  
+    width: 210px;
+    height: 21px;
+  
+    /* Heading_16px */
+  
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 21px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    /* Black */
+  
+    color: #32302F;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .frame238 {
+    display: none;
+  }
+
+  .frame239 {
+    display: none;
+  }
+  
+  .optionsBar>.vercelLogo {
+    position: absolute;
+    left: 300px;
+    right: 3px;
+    top: 16px;
+    bottom: 8px;
+    
+    /* border: 2px solid #000000; */
+    /* align-items: stretch; */
+    height: 20px;
+    width: 20px;
+  }
+
+  /* Main First Page Part */
+  
+.main {
+ /* Hero */
+
+
+width: 375px;
+height: 417px;
+
+/* White */
+
+/* background: #f31f1f; */
+border-radius: 0px 0px 48px 48px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+/* margin-top: -100px; */
+
+/* Inside auto layout */
+
+/* margin-left: 40px; */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.frame308 {
+      padding: 0px;
+}
+
+.frame308Head {
+ /* Stress-Free Investing */
+
+
+width: 327px;
+height: 41px;
+
+/* Heading_32px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 41px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+/* Brand/Blue */
+
+color: #121B64;
+
+/* border: 1px solid #000000; */
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-left: -40px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame308Desc {
+ /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. */
+
+
+width: 327px;
+height: 63px;
+
+/* Paragraph_16px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+/* Black */
+
+color: #32302F;
+
+
+/* Inside auto layout */
+margin-left: -40px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.frame308Button {
+ /* Frame 239 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+width: 139px;
+height: 53px;
+
+/* Brand/Blue */
+
+background: #121B64;
+border-radius: 32px;
+margin-left: 40px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.frame308Button button {
+  /* Join the Waitlist */
+
+
+width: 107px;
+height: 21px;
+
+/* Heading_16px */
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* coins css  */
+
+.RGCoin {
+  position: absolute;
+  width: 134px;
+  height: 74px;
+  left: -5px;
   top: 121px;
   background: url();
   transform: rotate(48.45deg);
@@ -1081,9 +1889,9 @@ flex-grow: 0;
  /* F Coin 2 */
 
  position: absolute;
- width: 61.72px;
- height: 85.72px;
- right: -0px;
+ width: 134px;
+ height: 74px;
+ right: -25px;
  top: 127px;
 
 /* background: url(F Coin.png); */
@@ -1135,17 +1943,15 @@ flex-grow: 0;
 
 
 /* Auto layout */
-
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
+align-items: centre;
 padding: 48px 24px;
 gap: 24px;
 
 width: 375px;
 height: 652px;
-
 background: linear-gradient(180deg, #F6F6F6 0%, #F5FAE7 100%);
 /* border-radius: 0px 0px 48px 48px; */
 
@@ -1159,17 +1965,16 @@ flex-grow: 0;
 .frame289 {
  /* Frame 289 */
 
-
-width: 327px;
-height: 327px;
-
-background: #DDDDDD;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+ width: 327px;
+ height: 327px;
+ 
+ background: #F4F3F3;
+ margin-left: 10px;
+ /* Inside auto layout */
+ 
+ flex: none;
+ order: 0;
+ flex-grow: 0;
 }
 /* 
 .frame289Desc {
@@ -1195,66 +2000,67 @@ flex-grow: 0;
 } */
 
 .frame289Desc>.head {
-  /* FD Bazaar */
-  width: 327px;
-  height: 41px;
-  
-  /* Heading_32px */
-  
-  font-family: 'Futura PT';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 41px;
-  /* identical to box height */
-  
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  
-  /* Brand/Blue */
-  
-  color: #121B64;
-  
-  
-  /* Inside auto layout */
-  
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+      /* FD Bazaar */
+      width: 327px;
+      height: 41px;
+      
+      /* Heading_32px */
+      
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 41px;
+      /* identical to box height */
+      
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      
+      /* Brand/Blue */
+      
+      color: #121B64;
+      
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
 }
 
 
 
 .frame289Desc>.container {
   width: 327px;
-  height: 63px;
-  
-  /* Paragraph_16px */
-  
-  font-family: 'Futura PT';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  
-  /* Black */
-  
-  color: #32302F;
-  
-  
-  /* Inside auto layout */
-  
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+      height: 63px;
+      
+      /* Paragraph_16px */
+      
+      font-family: 'Futura PT';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin-left: -40px;
+      
+      /* Black */
+      
+      color: #32302F;
+      
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
 }
 
 .buttonExplore {
@@ -1284,6 +2090,7 @@ line-height: 21px;
 /* identical to box height */
 
 text-align: center;
+/* margin-left: 160px; */
 
 /* Brand/Blue */
 
@@ -1298,3 +2105,6 @@ flex-grow: 0;
 }
 
 }
+
+
+
