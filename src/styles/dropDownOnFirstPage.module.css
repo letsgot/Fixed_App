@@ -12,6 +12,10 @@ width: 100vw;
 height: 8vh;
 /* left: 2213px; */
 /* top: 876px; */
+margin-top: 14.1vh;
+
+position: fixed;
+z-index: 1;
 
 background: #FFFFFF;
 /* background-color: aquamarine; */

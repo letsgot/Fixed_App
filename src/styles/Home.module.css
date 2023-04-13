@@ -1,4 +1,8 @@
 /* 1st Page Styling  */
+.nav {
+  position: fixed;
+  z-index: 1;
+}
 
 .navbar {
   display: flex;
@@ -14,8 +18,8 @@
   /* White */
   background: #FFFFFF;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  z-index: 1;
+  /* position: fixed;
+  z-index: 1; */
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -118,6 +122,11 @@
 
   border-radius: 32px;
 
+
+  /* position: fixed; */
+  /* z-index: 1; */
+  /* margin-top: 14.2vh; */
+
   /* Inside auto layout */
   flex: none;
   order: 1;
@@ -186,7 +195,7 @@
 .main {
   /* Hero */
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 
   /* White */
   background: #FFFFFF;

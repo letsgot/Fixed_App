@@ -16,6 +16,10 @@
     width: 100vw;
     height: 6vh;
 
+    margin-top: 20.1vh;
+    position: fixed;
+    z-index: 1;
+
     background: #F7F7F7;
     backdrop-filter: blur(16px);
     /* Note: backdrop-filter has minimal browser support */
@@ -90,7 +94,7 @@
 .main {
     /* Hero */
     width: 100vw;
-    height: calc(100vh - 20.1vh);
+    height: 100vh;
 
     /* White */
 
