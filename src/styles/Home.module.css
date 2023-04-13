@@ -1056,6 +1056,10 @@ border-radius: 32px;
 
 @media screen and (max-width: 430px) AND (max-height:896px)  {
   
+  .nav {
+    position: fixed;
+z-index: 1;
+  }
 
   .navbar {
     /* Nav Bar */
@@ -1077,8 +1081,7 @@ height: 50px;
 
 background: #FFFFFF;
 box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-position: fixed;
-z-index: 1;
+
 
 /* Inside auto layout */
 
@@ -1209,7 +1212,7 @@ flex-grow: 0;
 
 
 width: 375px;
-height: 500px;
+height: 600px;
 
 /* White */
 
