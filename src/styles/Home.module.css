@@ -1058,7 +1058,7 @@ border-radius: 32px;
   
   .nav {
     position: fixed;
-z-index: 1;
+    z-index: 1;
   }
 
   .navbar {
@@ -1212,13 +1212,12 @@ flex-grow: 0;
 
 
 width: 375px;
-height: 600px;
+height: 500px;
 
 /* White */
 
 /* background: #f31f1f; */
 border-radius: 0px 0px 48px 48px;
-margin-top: 90px;
 
 display: flex;
 align-items: center;
