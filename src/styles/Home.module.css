@@ -1938,9 +1938,9 @@ flex-grow: 0;
   width: 134px;
   height: 74px;
   left: 14px;
-  top: 358px;
-  bottom: 189px;
-  bottom: 53px;
+  top: 335px;
+  /* bottom: 189px;
+  bottom: 53px; */
 /* background: url(Percent Coin.png); */
 }
 
@@ -1952,10 +1952,10 @@ flex-grow: 0;
   width: 134px;
   height: 74px;
   /* left: 14px; */
-  right: 5px;
-  top: 365px;
-  bottom: 189px;
-  bottom: 53px;
+  right: -20px;
+  top: 335px;
+  /* bottom: 189px;
+  bottom: 53px; */
 
 /* background: url(Arrow Coin.png); */
 }
